@@ -183,8 +183,8 @@ button {
   top: 0;
   left: 0;
   display: block;
-  background: -webkit-gradient(linear, right top, left top, from(#4680ff), to(#0046df)) !important;
-  background: linear-gradient(to left, #4680ff, #0046df) !important;
+  background: -webkit-gradient(linear, right top, left top, from(#eb5d286b), to(#ff45006b)) !important;
+  background: linear-gradient(to left, #eb5d286b, #ff45006b) !important;
   opacity: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;

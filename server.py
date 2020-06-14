@@ -37,5 +37,10 @@ def page():
     return render_template('page.html')
 
 
+@app.route('/rewards')
+def rewards():
+    return render_template('rewards.html')
+
+
 if __name__=='__main__':
     app.run(host='0.0.0.0',port=5000)
