@@ -12,6 +12,21 @@ def sula():
     return render_template('page_1.html')
 
 
+@app.route('/charts')
+def charts():
+    return render_template('charts.html')
+
+
+@app.route('/forms')
+def forms():
+    return render_template('forms.html')
+
+
+@app.route('/tables')
+def tables():
+    return render_template('tables.html')
+
+
 @app.route('/profile')
 def profile():
     return render_template('profile.html')
