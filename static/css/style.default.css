@@ -85,10 +85,10 @@ a {
 }
 
 .icon {
-  min-width: 2.2rem;
-  max-width: 2.2rem;
-  min-height: 2.2rem;
-  max-height: 2.2rem;
+  min-width: 4.2rem;
+  max-width: 4.2rem;
+  min-height: 4.2rem;
+  max-height: 4.2rem;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2843,7 +2843,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #F8F9FB;
+  background-color: #fffcf2;
 }
 
 a {
@@ -2966,11 +2966,11 @@ mark,
 }
 
 .text-primary {
-  color: #4680ff !important;
+  color:#eb5d28 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #135dff !important;
+  color: #eb5d28 !important;
 }
 
 /*
@@ -3142,6 +3142,11 @@ button.bg-blue:focus {
   background-color: #7CF29C !important;
 }
 
+
+.bg-orange {
+  background-color: #EB5E28 !important;
+}
+
 a.bg-green:hover, a.bg-green:focus,
 button.bg-green:hover,
 button.bg-green:focus {
@@ -3287,11 +3292,11 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #4680ff !important;
+  color: #eb5d28 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #135dff !important;
+  color: #eb5d28 !important;
 }
 
 .text-secondary {
