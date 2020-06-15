@@ -1,0 +1,9 @@
+{% from 'macro_template.html' import macro_template %}
+{% set section_content %}
+<section class="py-5">
+<video autoplay="true" id="videoElement" style="width:100%"></video>
+<img src="static/img/camera-bottonbar.png" width="100%">
+<script src="static/vendor/jquery/jquery.min.js"></script>
+<script src="static/js/webcam.js"></script>
+{% endset %}
+{{ macro_template(section_content) }}

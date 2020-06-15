@@ -42,5 +42,15 @@ def rewards():
     return render_template('rewards.html')
 
 
+@app.route('/stretch')
+def stretch():
+    return render_template('stretch.html')
+
+
+@app.route('/camera')
+def camera():
+    return render_template('camera.html')
+
+
 if __name__=='__main__':
     app.run(host='0.0.0.0',port=5000)

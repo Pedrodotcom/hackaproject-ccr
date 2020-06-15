@@ -36,6 +36,7 @@
 
 .roundy {
   border-radius: 50px;
+  margin-bottom: 1%;
 }
 
 .border {
@@ -77,6 +78,7 @@
 a {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  text-decoration: none;
 }
 
 .page-holder {
@@ -1585,11 +1587,11 @@ STYLE SWITCHER FOR DEMO
 
 .btn-link:hover {
   color: #004ef9;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .btn-link:focus, .btn-link.focus {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .btn-link:disabled, .btn-link.disabled {
@@ -2853,7 +2855,7 @@ a {
 
 a:hover, a:focus {
   color: #004ef9;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 h1,

@@ -2,7 +2,10 @@
 {% set section_content %}
 <section class="py-5">
             <div class="row">
-              <div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
+
+
+              <div class="col-xl-12 col-lg-6 mb-4 mb-xl-0" id="stretch">
+                <a href="/stretch" style="text-decoration=none;">
                 <div class="bg-white shadow roundy p-4 h-100 d-flex align-items-center justify-content-between">
                   <i class="fas fa-selrver">
                   <img src="static/img/little-man-chall.png">
@@ -10,14 +13,16 @@
                   <div class="flex-grow-1 d-flex align-items-center" style="padding-left: 2%;">
                     <!--<div class="dot mr-3 bg-violet"></div>-->
                     <div class="text">
-                      <h6 class="mb-0">Alongamento</h6><span class="text-gray">3 x alongamentos de 10 minutos</span>
+                      <h6 class="mb-0" style="color: chocolate;">Alongamento</h6><span class="text-gray">3 x alongamentos de 10 minutos</span>
                     </div>
                   </div>
                   <div class="icon text-white bg-orange">+5 pts</div>
 
                 </div>
+                  </a>
               </div>
-              <div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
+
+              <div class="col-xl-12 col-lg-6 mb-4 mb-xl-0">
                 <div class="bg-white shadow roundy p-4 h-100 d-flex align-items-center justify-content-between">
                   <i class="fas fa-selrver">
                   <img src="static/img/sleep-chall.png">
@@ -31,7 +36,7 @@
                   <div class="icon text-white bg-orange">+15 pts</i></div>
                 </div>
               </div>
-              <div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
+              <div class="col-xl-12 col-lg-6 mb-4 mb-xl-0">
                 <div class="bg-white shadow roundy p-4 h-100 d-flex align-items-center justify-content-between">
                   <i class="fas fa-selrver">
                   <img src="static/img/vaccine-chall.png">
@@ -48,6 +53,7 @@
 
             </div>
           </section>
-
+<script src="static/vendor/jquery/jquery.min.js"></script>
+<script src="static/js/main.js"></script>
 {% endset %}
 {{ macro_template(section_content) }}

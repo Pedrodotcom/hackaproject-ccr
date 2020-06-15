@@ -1,0 +1,84 @@
+{% from 'macro_template.html' import macro_template %}
+{% set section_content %}
+<section class="py-5">
+            <div class="row">
+              <div class="col-xl-12 col-lg-6 mb-4 mb-xl-0" >
+                <div class="bg-white shadow roundy p-4 h-100 d-flex align-items-center justify-content-between">
+                  <i class="fas fa-selrver">
+                  <img src="static/img/little-man-chall.png">
+                  </i>
+                  <div class="flex-grow-1 d-flex align-items-center" style="padding-left: 2%;">
+                    <!--<div class="dot mr-3 bg-violet"></div>-->
+                    <div class="text">
+                      <h6 class="mb-0">Alongamento</h6><span class="text-gray">3 x alongamentos de 10 minutos</span>
+                    </div>
+                  </div>
+                  <div class="icon text-white bg-orange">+5 pts</div>
+
+                </div>
+              </div>
+
+
+
+            </div>
+
+    <div class="row">
+    <div class="col-xl-12 mb-2 col-lg-6 mb-xl-0">
+<div class="progress" style="height: 20px;color: #eb5e28;">
+      <div class="progress-bar" role="progressbar" style="width: 25%;background-color: #eb5e28;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    </div>
+</div>
+
+    <div class="row">
+    <div class="col-xl-12 col-lg-6 mb-4 mb-xl-0 d-flex align-items-center justify-content-between">
+    <p class="mt-lg-0 d-flex align-items-center justify-content-between" style=""> Faltam&nbsp;<b style="color: #EB5E28;">2</b>&nbsp; alongamentos de 10 minutos</p>
+
+        </div>
+</div>
+
+
+    <div class="row">
+    <div class="col-xl-12 col-lg-6 mb-4 mb-xl-0 d-flex align-items-center justify-content-between">
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe allowfullscreen="" src="https://www.youtube.com/embed/JSQ7bHTvXCo?rel=0" class="embed-responsive-item"></iframe>
+</div>
+</div>
+    </div>
+
+
+<div class="row">
+              <div class="col-xl-12 col-lg-6 mb-4 mb-xl-0">
+                   <a href="/camera" style="text-decoration=none;">
+                <div class="bg-orange shadow roundy p-4 h-100 d-flex align-items-center justify-content-between" id="stretch_button" style="margin-top: 1%;">
+
+                  <div class="flex-grow-1 d-flex align-items-center justify-content-between" style="padding-left: 2%;">
+                    <div class="text" style="
+    align-items: center;
+    align-self: center;
+    margin: auto;
+">
+                      <span class="text-white" style="
+    /* align-content: center; */
+    /* text-align: center; */
+    /* justify-items: end; */
+">Alongar!</span>
+                    </div>
+<!--<div class="dot mr-3 bg-violet"></div>-->
+
+                  </div>
+
+
+                </div>
+                       </a>
+              </div>
+
+
+
+            </div>
+
+
+          </section>
+
+{% endset %}
+{{ macro_template(section_content) }}
